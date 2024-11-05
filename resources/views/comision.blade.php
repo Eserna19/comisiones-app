@@ -32,11 +32,17 @@
 
             <div class="mb-3">
                 <label for="precio_inicial" class="form-label">Precio Distribuidor:</label>
-                <input type="number" step="0.01" class="form-control" id="precio_inicial" name="precio_inicial" readonly>
+                <div class="input-group">
+                    <span class="input-group-text">$</span>
+                    <input type="number" step="0.01" class="form-control" id="precio_inicial" name="precio_inicial" readonly>
+                </div>
             </div>
             <div class="mb-3">
                 <label for="precio_publico" class="form-label">Precio Sugerido al Público:</label>
-                <input type="number" step="0.01" class="form-control" id="precio_publico" name="precio_publico" readonly>
+                <div class="input-group">
+                    <span class="input-group-text">$</span>
+                    <input type="number" step="0.01" class="form-control" id="precio_publico" name="precio_publico" readonly>
+                </div>
             </div>
             <div class="mb-3">
                 <label for="precio_venta" class="form-label">Precio Facturado:</label>
